@@ -15,6 +15,7 @@ GitFlow 및 Git에 대해서는 아래 링크를 참조.
  - [GitFlow for Kor.](https://gist.github.com/ihoneymon/a28138ee5309c73e94f9)
 
 ---
+<br>
 
 ## WIZnet의 룰
 
@@ -60,11 +61,12 @@ GitFlow 및 Git에 대해서는 아래 링크를 참조.
 
 ### Commit 룰 
 Commit은 GitHub의 Issue를 기준으로 한다.
-GitHub Repository에 Issue를 남기면, '#'과 함께 번호가 할당된다. ex) #23
+
+GitHub Repository에 Issue를 남기면, '#'과 함께 번호가 할당된다. ex) #1
 
 이 때, 할당 된 번호를 Commit에 사용한다.
 
-    ex1) Bug Fixed #44
+    ex1) Bug Fixed #1
     ex2) Modified #189
     ex3) Add #482
     ex4) Update #586
