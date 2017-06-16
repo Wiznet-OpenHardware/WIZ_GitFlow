@@ -17,9 +17,26 @@ GitFlow 및 Git에 대해서는 아래 링크를 참조.
 ---
 <br>
 
-## WIZnet의 룰
+## Process
+#### Issue 발생
+ - 어떠한 이슈이든 코드 수정이 필요하다면, 해당 레퍼지토리의 [Issues](https://github.com/Wiznet/WIZ_GitFlow/issues)에 등록한다.
+ - (고객이 직접 Issue를 남기지 않았다면) Forum, 통화 등 모든 상황에 대해서 담당자가 직접 등록한다. (Template은 #1 참조)
+#### 코드 수정
+ - Issue에 해당하는 내용에 대해서만 수정한다. (코드 관리 차원)
+#### 레퍼지토리 업데이트
+ - 수정한 코드 내용을 GitFlow 방식으로, 다음 절의 WIZnet 룰을 따라 레퍼지토리를 업데이트 한다.
+ - 이 때, 반드시 Commit Message에 이슈번호를 사용한다. (WIZnet Rules 참조)
+#### Issue 답변
+ - 해당 Issue에 업데이트 결과에 대한 답변을 한다. (Template은 #1 참조)
+#### Issue 닫기
+ - Issue에 답변을 달고 최종 처리되었다면, 해당 Issue를 Close한다.
 
-### Branch 룰
+---
+<br>
+
+## WIZnet Rules
+
+### Branch Rules
 기본적으로 GitFlow를 따르나,
 각 상황별 사용해야할 Branch(GitFlow에서 사용되는)는 아래와 같다.
 
@@ -59,7 +76,7 @@ GitFlow 및 Git에 대해서는 아래 링크를 참조.
     *  업데이트의 경우, 기능 추가로 인해 Minor가 올림되는 경우도 포함.
 <br>
 
-### Commit 룰 
+### Commit Rules 
 Commit은 GitHub의 Issue를 기준으로 한다.
 
 GitHub Repository에 Issue를 남기면, '#'과 함께 번호가 할당된다. ex) #1
