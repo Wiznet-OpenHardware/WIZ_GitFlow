@@ -21,6 +21,7 @@ GitFlow 및 Git에 대해서는 아래 링크를 참조.
 #### Issue 발생
  - 어떠한 이슈이든 코드 수정이 필요하다면, 해당 레퍼지토리의 [Issues](https://github.com/Wiznet/WIZ_GitFlow/issues)에 등록한다.
  - (고객이 직접 Issue를 남기지 않았다면) Forum, 통화 등 모든 상황에 대해서 담당자가 직접 등록한다. (Template은 #1 참조)
+ - 코드 수정 담당자가 별도로 있다면, Issue를 등록한 뒤 초대하여 Issue에 대응하도록 한다.
 #### 코드 수정
  - Issue에 해당하는 내용에 대해서만 수정한다. (코드 관리 차원)
 #### 레퍼지토리 업데이트
