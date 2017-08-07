@@ -1,4 +1,4 @@
-# WIZnet GitFlow
+ WIZnet GitFlow
 
 해당 레퍼지토리는 WIZnet의 버전관리체계(Version Control System, VCS)를 정의하고 교육하기 위한 용도이다.
 
@@ -28,7 +28,7 @@ GitFlow 및 Git에 대해서는 아래 링크를 참조.
  - 수정한 코드 내용을 GitFlow 방식으로, 다음 절의 WIZnet 룰을 따라 레퍼지토리를 업데이트 한다.
  - 이 때, 반드시 Commit Message에 이슈번호를 사용한다. (WIZnet Rules 참조)
 #### Issue 답변
- - 해당 Issue에 업데이트 결과에 대한 답변을 한다. (Template은 #1 참조)
+ - 해당 Issue에 업데이트 결과에 대한 답변을 한다. (Template은 [#1](https://github.com/Wiznet/WIZ_GitFlow/issues/1) 참조)
 #### Issue 닫기
  - Issue에 답변을 달고 최종 처리되었다면, 해당 Issue를 Close한다.
 
@@ -73,14 +73,13 @@ GitFlow 및 Git에 대해서는 아래 링크를 참조.
 |버그 수정|오른쪽(Maintenance)|0.0.1 -> 0.0.2|
 |기능 추가|가운데(Minor)|0.0.1 -> 0.1.0|
 |주요 업데이트|왼쪽(Major)|0.0.1 -> 1.0.0|
-    
-    *  업데이트의 경우, 기능 추가로 인해 Minor가 올림되는 경우도 포함.
+     
 <br>
 
 ### Commit Rules 
 Commit은 GitHub의 Issue를 기준으로 한다.
 
-GitHub Repository에 Issue를 남기면, '#'과 함께 번호가 할당된다. ex) #1
+GitHub Repository에 Issue를 남기면, '#'과 함께 번호가 할당된다. ex) [#1](https://github.com/Wiznet/WIZ_GitFlow/issues/1)
 
 이 때, 할당 된 번호를 Commit에 사용한다.
 
